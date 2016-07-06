@@ -1,8 +1,8 @@
 ---
-Title: Sub Page Index
+Title: Наука
 ---
 
-## This is a Sub Page Index
+## Наука
 
 This is `index.md` in the `sub` folder.
 

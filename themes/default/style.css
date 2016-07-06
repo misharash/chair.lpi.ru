@@ -352,6 +352,11 @@ dd {
     #header h1 a {
         font-size:1em;
     }
+
+    #header .active a {
+        color: #000;
+    }
+
     #header .menu-icon {
         display:inline-block;
     }
