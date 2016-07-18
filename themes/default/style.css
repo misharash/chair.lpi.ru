@@ -268,12 +268,12 @@ dd {
     float: left;
 }
 #footer {
-    background: #707070;
+    background: #000;
     padding: 60px 0;
     margin-top: 80px;
-    color: #C0C0C0;
+    color: #fff;
 }
-#footer a { color: #ddd; }
+#footer a { color: #fff; }
 #footer a:hover { color: #fff; }
 
 /* Misc Styles
