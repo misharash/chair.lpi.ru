@@ -1,8 +1,8 @@
 ---
-Title: Наука
+Title: Участие в конференциях
 ---
 
-## Наука
+## Участие в конференциях
 
 This is `index.md` in the `sub` folder.
 

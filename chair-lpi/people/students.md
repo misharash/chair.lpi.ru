@@ -1,8 +1,8 @@
 ---
-Title: Лица
+Title: Студенты
 ---
 
-## Лица
+## Студенты
 
 This is `index.md` in the `sub` folder.
 

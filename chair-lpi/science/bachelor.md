@@ -1,8 +1,8 @@
 ---
-Title: Учёба
+Title: Бакалаврские дипломы
 ---
 
-## Учёба
+## Бакалаврские дипломы
 
 This is `index.md` in the `sub` folder.
 
