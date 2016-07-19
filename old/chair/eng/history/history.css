@@ -1,0 +1,20 @@
+
+#heading 
+	{font-weight:bold; font-size:60; font-family:"Arial narrow"; color:#666666}
+A 
+	{text-decoration:none}
+A:hover 
+	{color:blue}
+.invis
+	{display:none}
+#exch
+	{font-size:30; font-family:"webdings"}
+.open_a
+	{font-size:30; font-family:"webdings"; color:black}
+.open_y
+	{font-size:24; font-family:"arial"; color:black}
+.close_a
+	{font-size:30; font-family:"webdings"; color:#666666}
+.close_y
+	{font-size:24; font-family:"arial"; color:#666666}
+

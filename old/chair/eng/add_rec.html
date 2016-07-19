@@ -1,0 +1,79 @@
+<html>
+<head>
+<title>Make a record</title>
+<meta charset="windows-1251">
+<LINK type="text/css" HREF="/eng/comsheet.css" rel="stylesheet">
+<SCRIPT language="JavaScript">
+<!--
+function ChooseLen() {
+        if (document.send.message.value.length>500) {
+                document.send.message.value = document.send.message.value.substring(0,500);
+                document.send.count.value = 500;
+        }
+        document.send.count.value = document.send.message.value.length;
+}
+
+function guard() {
+        var numb=1+Math.round(10*Math.random());
+        document.images['pic'].src='guard/'+numb+'.gif';
+        document.send.number.value=numb;
+}
+//-->
+</SCRIPT>
+</head>
+
+<body bgcolor=#999999 onLoad="guard(); document.all.title.focus()">
+
+<basefont face="arial narrow">
+<center>
+<table width=85% height=100% bgcolor=#b6b6b6 border=0 cellpadding=0 cellspacing=0>
+<tr><td align=center valign=top>
+
+<table width=85% height=5 border=0 cellpadding=0 cellspacing=0>
+<tr><td></td>
+</table>
+
+<table width=85% height=70 border=0 cellpadding=0 cellspacing=0>
+<tr><td align=center ID=heading>Guest book <Font face="Wingdings">?</Font></td>
+</table>
+<hr width=80%>
+
+<table width=85% border=0 cellpadding=0 cellspacing=0>
+<tr><td align=center>
+Maximal message length - <u>500</u> symbols.<BR/>
+One can use the following tags to mark words:<BR/>
+&lt;b&gt;<B> text </B>&lt;/b&gt; и &lt;i&gt;<I> text </I>&lt;/i&gt;
+<form name=send onsubmit="return confirm('Is all correct?')" action="/cgi-bin/add_gb.pl?eng" method=post>
+<table border=0 width=95% cellspacing=10>
+<tr>
+<td><font size=+2>Sender:</font></td>
+<td colspan=3 align=center valign=bottom><input type=text size=40 name=title></td>
+<tr>
+<td><font size=+2>E-mail:</font></td>
+<td colspan=3 align=center valign=bottom><input type=text size=40 name=email></td>
+<tr>
+<td><font size=+2>Message:</font></td>
+<td align=center colspan=3><textarea rows=8 cols=50 name=message onkeypress=ChooseLen() onkeydown=ChooseLen() onkeyup=ChooseLen() onfocus=ChooseLen() onchange=ChooseLen()></textarea></td>
+<tr>
+<td colspan=4 valign=top align=right>Message length: <INPUT readOnly size=2 value=0 name=count style="background:#dddddd"></td>
+<p>
+<tr>
+<td><font size=+2>Guard:</font></td>
+<td><img ID='pic' width=200 height=75 border=0 alt="Image code"></td>
+<td><Input type=text size=14 name='answer' value=" Input answer" style="background:#dddddd" onfocus="this.style.background='white'" onblur="this.style.background='#dddddd'" title='Input image code'></td>
+<INPUT type=hidden name=number>
+<tr>
+<td>&nbsp;</td>
+<td align=center><input type=submit value="Record"></td>
+<td align=center><input type=reset value="Clear" onclick="document.all.title.focus()"></td>
+<td align=center><input type=button value="Back"        onclick="document.location='/cgi-bin/show_gb.pl?1+1+eng+guest_book'"></td>
+</table>
+</form>
+</td></tr>
+</table>
+</td></tr>
+</table>
+
+</center>
+</body>
+</html>
