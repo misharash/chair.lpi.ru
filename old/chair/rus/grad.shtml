@@ -1,0 +1,97 @@
+<html>
+<head>
+<title>Выпускники</title>
+<meta charset="windows-1251">
+<LINK type="text/css" HREF="comsheet.css" rel="stylesheet">
+<STYLE type="text/css">
+	.off
+ 	       {color:#666666; font-family:"Arial Narrow"; font-weight:bold}
+	.on
+   	     {color:blue; font-family:"Arial Narrow"; font-weight:bold; cursor:pointer}
+</STYLE>
+</head>  
+
+<body bgcolor=#999999 text="black" alink=black vlink=black link=black>
+<center>
+<table width=85% height=100% bgcolor=#b6b6b6 border=0 cellpadding=0 cellspacing=0>
+<tr><td align=center valign=top>
+
+<table width=85% height=5 border=0 cellpadding=0 cellspacing=0>
+<tr><td></td>
+</table>
+
+<table width=85% height=70 border=0 cellpadding=0 cellspacing=0>
+<tr><td align=center ID=heading>Выпускники</td>
+</table>
+<hr width=80%>
+
+	<table width=80% height=40 border=0 cellpadding=0 cellspacing=0>
+	<tr valign=top>
+	<td align=right>
+	<u class=off onmouseover="this.className='on'" onmouseout="this.className='off'"
+	onclick="window['actype'] ='chgrads'; 
+	window.open('/password.html','','left=300,top=300,toolbar=0,scrollbars=0,menubar=0,resizable=0,width=400,height=50');">
+        Добавить выпускников</u>
+	</td>
+	</tr>
+	
+	<tr valign=top>
+	<td align=right>
+	<u class=off onmouseover="this.className='on'" onmouseout="this.className='off'"
+	onclick="window['actype'] ='delgrads'; 
+	window.open('/password.html','','left=300,top=300,toolbar=0,scrollbars=0,menubar=0,resizable=0,width=400,height=50');">
+        Очистить список</u>
+	</td>
+	</tr>
+	</table>
+
+<table width=55% border=0 cellpadding=0 cellspacing=0>
+<FORM action=/cgi-bin/grads.pl method=post>
+<tr><td colspan=2><!--#include virtual="/cgi-bin/stat.pl"--></td>
+</FORM>
+</table>
+
+<p>
+<table width=55% border=0 cellpadding=0 cellspacing=0>
+<tr><td align=center>
+
+<table bgcolor=#dddddd width=100% border=0 cellpadding=5 cellspacing=1>
+<tr><td align=center colspan=3>
+<b><font size=+1><u>Расширенный поиск</font></b></td>
+
+<tr>
+<FORM action=/cgi-bin/grads.pl method=post>
+<td>
+<SELECT name='exit' rows="12" style="background:#dddddd" onchange="exit.value?submit():1" title='Выберите год выпуска'>
+	<OPTION selected>&nbsp;&nbsp;Год&nbsp;&nbsp;</OPTION><OPTION>---------</OPTION>
+	<!--#include virtual="/cgi-bin/years.pl"-->	
+</SELECT>
+</td>
+</FORM>
+
+<FORM action=/cgi-bin/grads.pl method=post>
+<td>
+<SELECT name='advisor' rows="7" style="background:#dddddd" onchange="advisor.value?submit():1">
+	<OPTION selected>Научный руководитель</OPTION><OPTION>---------------------------------------</OPTION>
+	<!--#include virtual="/cgi-bin/adv.pl"-->
+</SELECT>
+</td>
+</FORM>
+
+<FORM name=byname action=/cgi-bin/grads.pl method=post>
+<td>
+<Input type=text size=20 name='search' value="  Введите фамилию" style="background:#dddddd" onfocus="this.style.background='white'" onblur="this.style.background='#dddddd'" title='Введите фамилию и нажмите enter'>
+</td>
+</FORM>
+
+</table>
+
+</td>
+</table>
+
+</td></tr>
+</table>
+
+</center>
+</body>
+</html>
