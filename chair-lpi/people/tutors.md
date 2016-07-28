@@ -2,10 +2,21 @@
 Title: Преподаватели
 ---
 
-## Преподаватели
-
-This is `index.md` in the `sub` folder.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies tristique nulla et mattis. Phasellus id massa eget nisl congue blandit sit amet id ligula. Praesent et nulla eu augue tempus sagittis. Mauris faucibus nibh et nibh cursus in vestibulum sapien egestas. Curabitur ut lectus tortor. Sed ipsum eros, egestas ut eleifend non, elementum vitae eros. Mauris felis diam, pellentesque vel lacinia ac, dictum a nunc. Mauris mattis nunc sed mi sagittis et facilisis tortor volutpat. Etiam tincidunt urna mattis erat placerat placerat ac eu tellus. Ut nec velit id nisl tincidunt vehicula id a metus. Pellentesque erat neque, faucibus id ultricies vel, mattis in ante. Donec lobortis, mauris id congue scelerisque, diam nisl accumsan orci, condimentum porta est magna vel arcu. Curabitur varius ante dui. Vivamus sit amet ante ac diam ullamcorper sodales sed a odio.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies tristique nulla et mattis. Phasellus id massa eget nisl congue blandit sit amet id ligula. Praesent et nulla eu augue tempus sagittis. Mauris faucibus nibh et nibh cursus in vestibulum sapien egestas. Curabitur ut lectus tortor. Sed ipsum eros, egestas ut eleifend non, elementum vitae eros. Mauris felis diam, pellentesque vel lacinia ac, dictum a nunc. Mauris mattis nunc sed mi sagittis et facilisis tortor volutpat. Etiam tincidunt urna mattis erat placerat placerat ac eu tellus. Ut nec velit id nisl tincidunt vehicula id a metus. Pellentesque erat neque, faucibus id ultricies vel, mattis in ante. Donec lobortis, mauris id congue scelerisque, diam nisl accumsan orci, condimentum porta est magna vel arcu. Curabitur varius ante dui. Vivamus sit amet ante ac diam ullamcorper sodales sed a odio.
+ФИО | Должность в МФТИ | Ученая степень | Звание | Должность в ФИАН
+-- | -- | -- | -- | --
+Гуревич Александр Викторович | заведующий кафедрой | доктор физ.-мат. наук | Академик РАН | Зав. сектором
+Бескин Василий Семенович | профессор | доктор физ.-мат. наук | старший научный сотрудник | ведущий научный сотрудник
+Арсеев Петр Иварович | старший преподаватель | доктор физ.-мат. наук | Член-корреспондент РАН | Зав. сектором
+Апенко Сергей Михайлович | ассистент | кандидат физ.-мат. наук | | старший научный сотрудник
+Брук Юлий Менделеевич | доцент | кандидат физ.-мат. наук | | старший научныйсотрудник
+Воронов Борис Леонидович | доцент | доктор физ.-мат. наук | старший научный сотрудник | главный научный сотрудник
+Григорьев Максим Анатольевич | ассистент | кандидат физ.-мат. наук | | научный сотрудник
+Догель Владимир Александрович | профессор | доктор физ.-мат. наук | профессор | ведущий научный сотрудник
+Зельников Максим Иванович | доцент | кандидат физ.-мат. наук | | старший научный сотрудник
+Истомин Яков Николаевич | профессор | доктор физ.-мат. наук | профессор | зам. директора ОТФ по науке
+Каленков Михаил Сергеевич | старший преподаватель | кандидат физ.-мат. наук | | младший научный сотрудник
+Лукаш Владимир Николаевич | профессор | доктор физ.-мат. наук | профессор | заведующий отделом
+Силин Андрей Павлович | доцент | кандидат физ.-мат. наук | | старший научный сотрудник
+Сирота Валерия Александровна | | кандидат физ.-мат. наук | | научный сотрудник
+Типунин Илья Юрьевич | ассистент | кандидат физ.-мат. наук | | старший научный сотрудник
+Цытович Вадим Николаевич | профессор | доктор физ.-мат. наук | профессор | ИОФАН, заведующий сектором
