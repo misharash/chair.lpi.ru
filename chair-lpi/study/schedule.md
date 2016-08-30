@@ -2,10 +2,25 @@
 Title: Расписание
 ---
 
-## Расписание
+## Начало занятий: 5 сентября 2016.
 
-This is `index.md` in the `sub` folder.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies tristique nulla et mattis. Phasellus id massa eget nisl congue blandit sit amet id ligula. Praesent et nulla eu augue tempus sagittis. Mauris faucibus nibh et nibh cursus in vestibulum sapien egestas. Curabitur ut lectus tortor. Sed ipsum eros, egestas ut eleifend non, elementum vitae eros. Mauris felis diam, pellentesque vel lacinia ac, dictum a nunc. Mauris mattis nunc sed mi sagittis et facilisis tortor volutpat. Etiam tincidunt urna mattis erat placerat placerat ac eu tellus. Ut nec velit id nisl tincidunt vehicula id a metus. Pellentesque erat neque, faucibus id ultricies vel, mattis in ante. Donec lobortis, mauris id congue scelerisque, diam nisl accumsan orci, condimentum porta est magna vel arcu. Curabitur varius ante dui. Vivamus sit amet ante ac diam ullamcorper sodales sed a odio.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies tristique nulla et mattis. Phasellus id massa eget nisl congue blandit sit amet id ligula. Praesent et nulla eu augue tempus sagittis. Mauris faucibus nibh et nibh cursus in vestibulum sapien egestas. Curabitur ut lectus tortor. Sed ipsum eros, egestas ut eleifend non, elementum vitae eros. Mauris felis diam, pellentesque vel lacinia ac, dictum a nunc. Mauris mattis nunc sed mi sagittis et facilisis tortor volutpat. Etiam tincidunt urna mattis erat placerat placerat ac eu tellus. Ut nec velit id nisl tincidunt vehicula id a metus. Pellentesque erat neque, faucibus id ultricies vel, mattis in ante. Donec lobortis, mauris id congue scelerisque, diam nisl accumsan orci, condimentum porta est magna vel arcu. Curabitur varius ante dui. Vivamus sit amet ante ac diam ullamcorper sodales sed a odio.
+День | Время | Название | Курс | Лектор | Место
+-- | -- | -- | -- | -- | -- 
+понедельник | 11.00-12.20 | Диаграммная техника | 4 | П.И.Арсеев | Нижний зал ОТФ
+понедельник | 12.30-13.50 | Квантовая теория поля | 4 | К.Б.Алкалаев | Нижний зал ОТФ
+понедельник | 12.30-13.50 | Квантовая теория неравновесных явлений | 5 | П.И.Арсеев | Верхний зал ОТФ
+понедельник | 14.30-15.50 | Семинар по проблемам современной физики | 5,6 | | Верхний зал ОТФ
+вторник | 11.00-13.00 | Семинар ОТФ по теории твёрдого тела | 4-6 | | Верхний зал ОТФ
+вторник | 15.00-17.00 | Семинар ОТФ | 4-6 | | Конференц-зал ФИАН
+среда | 10.30-11.50 | Вычислительная физика | 4 | О.В.Иванов | Верхний зал ОТФ
+среда | 10.30-11.50 | Физические основы космологии | 5 | Е.В.Михеева | Нижний зал ОТФ
+среда | 12.00-14.00 | Семинар ОТФ по астрофизике | 4-6 | | Нижний зал ОТФ
+среда | 14.30-15.50 | Физика плазмы | 4 | В.С.Бескин | Верхний зал ОТФ
+среда | 14.30-15.50 | Физическая кинетика | 5 | Я.Н.Истомин | Нижний зал ОТФ
+среда | 16.00-17.20 | Семинар по методам теоретической физики | 4 | | Верхний зал ОТФ
+среда | 16.00-17.20 | Статистика и кинетика критических явлений | 5 | С.М.Апенко | Нижний зал ОТФ
+четверг | 10.30-11.50 | Вычислительная физика | 3 | О.В.Иванов | Верхний зал ОТФ
+четверг | 12.00-13.20 | Математический аппарат ОТО | 3 | М.В.Зельников | Верхний зал ОТФ
+четверг | 14.00-15.20 | Введение в ОТО | 3 | М.В.Зельников | Верхний зал ОТФ
+четверг | 15.30-16.50 | Высшая алгебра и теория представлений | 3 | М.А.Григорьев | Верхний зал ОТФ
+четверг | 17.00-18.20 | Семинар по методам теоретической физики | 3 | | Верхний зал ОТФ
