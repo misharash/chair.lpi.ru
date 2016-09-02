@@ -22,7 +22,6 @@ with open('resources.csv') as csvfile:
         ftype.append(row[4])
         depth.append(0)
 content_dir="chair-lpi"
-print(ftype)
 saveto_dir="static/"
 base_url="http://localhost/chair.lpi.ru/"
 os.chdir(content_dir)
@@ -57,3 +56,5 @@ for i in range(len(download_from)):
         bs=s.encode("utf-8")
     with open(saveto_dir+save_to[i],"wb") as f:
         f.write(bs)
+os.chdir(content_dir)
+print(os.popen("scp -r . edigaryev@td.lpi.ru:/home/www/chair/new/").read())
