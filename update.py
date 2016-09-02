@@ -51,10 +51,13 @@ for i in range(len(download_from)):
             s=bs.decode("utf-8")
         except AttributeError:
             s=bs
+        s=s.replace('href="http',"donotrepeatthiscombinationinapage")
+        s=s.replace('href="','href="'+"../"*depth[i])
+        s=s.replace("donotrepeatthiscombinationinapage",'href="http')
         for j in range(len(replace_from)):
             s=s.replace(replace_from[j],"../"*depth[i]+replace_to[j])
         bs=s.encode("utf-8")
     with open(saveto_dir+save_to[i],"wb") as f:
         f.write(bs)
-os.chdir(content_dir)
+os.chdir(saveto_dir)
 print(os.popen("scp -r . edigaryev@td.lpi.ru:/home/www/chair/new/").read())
