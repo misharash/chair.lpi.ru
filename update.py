@@ -52,8 +52,11 @@ for i in range(len(download_from)):
         except AttributeError:
             s=bs
         s=s.replace('href="http',"donotrepeatthiscombinationinapage")
+        s=s.replace('href="mailto',"donotrepeatalsothiscombinationinapage")
         s=s.replace('href="','href="'+"../"*depth[i])
+        s=s.replace("donotrepeatalsothiscombinationinapage",'href="mailto')
         s=s.replace("donotrepeatthiscombinationinapage",'href="http')
+        
         for j in range(len(replace_from)):
             s=s.replace(replace_from[j],"../"*depth[i]+replace_to[j])
         bs=s.encode("utf-8")
