@@ -96,7 +96,7 @@ appears on the left side of the page.
   left: 0;
   bottom: 0;
   z-index: 1000; /* so the menu or its navicon stays above all content */
-  background: #112;
+  background: #333;
   overflow-y: auto;
   text-align: center;
   -webkit-overflow-scrolling: touch;
@@ -107,7 +107,7 @@ All anchors inside the menu should be styled like this.
 #menu a {
   color: #999;
   border: none;
-  padding: 0.2em 0.5em;
+  padding: 1em 0.5em;
   text-shadow: 1px 1px #222;
 }
 #menu a:hover {
@@ -160,7 +160,7 @@ This styles the menu heading.
 #menu .pure-menu-heading {
   font-size: 110%;
   color: #fff;
-  margin-top: 0.5em;
+  margin: 0;
 }
 
 #menuLink {
