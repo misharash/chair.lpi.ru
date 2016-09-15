@@ -56,6 +56,9 @@ for i in range(len(download_from)):
         s=s.replace('href="','href="'+"../"*depth[i])
         s=s.replace("donotrepeatalsothiscombinationinapage",'href="mailto')
         s=s.replace("donotrepeatthiscombinationinapage",'href="http')
+        s=s.replace('src="http',"donotrepeatthiscombinationinapage")
+        s=s.replace('src="','src="'+"../"*depth[i])
+        s=s.replace("donotrepeatthiscombinationinapage",'src="http')
         
         for j in range(len(replace_from)):
             s=s.replace(replace_from[j],"../"*depth[i]+replace_to[j])
