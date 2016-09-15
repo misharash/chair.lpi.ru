@@ -39,6 +39,7 @@ href="http://td.lpi.ru/">Отделение теоретической физи�
 
     <section id="content">
         <div class="inner">
+            {% if meta.title %}<h1>{{ meta.title }}</h1>{% endif %}
             {{ content }}
         </div>
     </section>
