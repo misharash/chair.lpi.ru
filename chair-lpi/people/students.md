@@ -12,10 +12,10 @@ Title: Студенты
 [Новоселов Егор Михайлович](mailto:novoselovegor@gmail.com "E-mail: novoselovegor@gmail.com") | 526т | |
 [Рашковецкий Михаил Михайлович](mailto:rashkovetskiy.mm@phystech.edu "E-mail: rashkovetskiy.mm@phystech.edu") | 526т | |
 [Романенко Наталия Юрьевна](mailto:rmtasha@yandex.ru "E-mail: rmtasha@yandex.ru") | 526т | |
+[Родин Владислав Валерьевич](mailto:rodin.vv@phystech.edu "E-mail: rodin.vv@phystech.edu") | 526т | |
 [Ситников Сергей Сергеевич](mailto:mailtosergeysitnikov@yandex.ru "E-mail: mailtosergeysitnikov@yandex.ru") | 526т | |
-[Фоменко Илья Александрович](mailto:fomenko.ilya.97@mail.ru "E-mail: fomenko.ilya.97@mail.ru") | 526т | |
 [Шишкин Артем Александрович](mailto:artem.shishkin@phystech.edu "E-mail: artem.shishkin@phystech.edu") | 526т | |
-[Ян Александр Николаевич](mailto:caiiiarh@gmail.com "E-mail: caiiiarh@gmail.com") | 526т | | 
+[Ян Александр Николаевич](mailto:caiiiarh@gmail.com "E-mail: caiiiarh@gmail.com") | 526т | |
 Афанасьев Владимир Николаевич | 426т | |
 [Василенко Алексей Юрьевич](mailto:vasilex@mail.ru "E-mail: vasilex@mail.ru") | 426т | |
 [Звагельский Роман Дмитриевич](mailto:superznatok@gmail.com "E-mail: superznatok@gmail.com") | 426т | |
@@ -38,7 +38,7 @@ Title: Студенты
 [Сурдяев Алексей Александрович](mailto:aleksey.surdyaev@phystech.edu "E-mail: aleksey.surdyaev@phystech.edu") | 228т | |
 [Черноглазов Александр Владимирович](mailto:chernoglazov_aleksandr@mail.ru "E-mail: chernoglazov_aleksandr@mail.ru") | 228т | доктор физ.-мат. наук, профессор Бескин Василий Семенович
 [Аникин Евгений Викторович](mailto:evg.anikin@mail.ru "E-mail: evg.anikin@mail.ru") | 128т | член-кор., доктор физ.-мат. наук, профессор Арсеев Петр Иварович
-[Белова Маргарита](mailto:belova.margarita11@gmail.com "E-mail: belova.margarita11@gmail.com") | 128т | |	
+[Белова Маргарита](mailto:belova.margarita11@gmail.com "E-mail: belova.margarita11@gmail.com") | 128т | |
 [Билинский Юрий Михайлович](mailto:nelogan@yandex.ru "E-mail: nelogan@yandex.ru") | 128т | |
 Долгирев Павел Евгеньевич | 128т | кандидат физ-мат. наук Семенов Андрей Георгиевич
 [Дубинин Игорь](mailto:Henryvd@mail.ru "E-mail: Henryvd@mail.ru") | 128т | |
