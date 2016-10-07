@@ -60,7 +60,7 @@ for i in range(len(download_from)):
         s=s.replace('src="','src="'+"../"*depth[i])
         s=s.replace("donotrepeatthiscombinationinapage",'src="http')
         
-        for j in range(len(replace_from)):
+        for j in range(len(replace_from)-1,-1,-1):
             s=s.replace(replace_from[j],"../"*depth[i]+replace_to[j])
         bs=s.encode("utf-8")
     with open(saveto_dir+save_to[i],"wb") as f:
