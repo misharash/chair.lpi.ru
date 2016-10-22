@@ -2,7 +2,7 @@
 Title: Арсеев Пётр Иварович
 ---
 
-![Арсеев Пётр Иварович](images/ArseevPI.jpg)
+<img src="images/arseev.pi.jpg" height=400>
 
 Доктор физико-математических наук, член-корреспондент РАН, заведующий сектором.<br>
 **тел.**: +7(499)132-6271, **E-mail**: [ars@lpi.ru](mailto:ars@lpi.ru)<br>

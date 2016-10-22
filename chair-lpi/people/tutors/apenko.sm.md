@@ -2,7 +2,7 @@
 Title: Апенко Сергей Михайлович
 ---
 
-![Апенко Сергей Михайлович](images/ApenkoSM.jpg)
+<img src="images/apenko.sm.jpg" height=400>
 
 Кандидат физико-математических наук, старший научный сотрудник.<br>
 **тел.**: +7(499)132-6041, **E-mail**: [apenko@lpi.ru](mailto:apenko@lpi.ru)<br>

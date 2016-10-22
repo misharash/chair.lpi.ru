@@ -2,7 +2,7 @@
 Title: Истомин Яков Николаевич
 ---
 
-![Истомин Яков Николаевич](images/IstominYaN.jpg)
+<img src="images/istomin.yn.jpg" width=400>
 
 Профессор, доктор физико-математических наук, заместитель директора ОТФ по науке.<br>
 **тел.**: +7(499)132-6171, **E-mail**: [istomin@lpi.ru](mailto:istomin@lpi.ru)<br>

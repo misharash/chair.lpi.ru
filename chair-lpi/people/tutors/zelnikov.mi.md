@@ -2,7 +2,7 @@
 Title: Зельников Максим Иванович
 ---
 
-![Зельников Максим Иванович](images/ZelnikovMI.jpg)
+<img src="images/zelnikov.mi.jpg" height=400>
 
 Доцент, кандидат физико-математических наук, старший научный сотрудник.<br>
 **тел.**: (499)132-6172, **E-mail**: [zelnikov@lpi.ru](mailto:zelnikov@lpi.ru)<br>
