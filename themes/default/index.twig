@@ -1,52 +1,60 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 <head>
-    <meta charset="utf-8" />
+	<meta charset="utf-8" />
 
-    <title>{% if meta.title %}{{ meta.title }} | {% endif %}{{ site_title }}</title>
-    {% if meta.description %}
-        <meta name="description" content="{{ meta.description|striptags }}">
-    {% endif %}{% if meta.robots %}
-        <meta name="robots" content="{{ meta.robots }}">
-    {% endif %}
+	<title>{% if meta.title %}{{ meta.title }} | {% endif %}{{ site_title }}</title>
+	{% if meta.description %}
+		<meta name="description" content="{{ meta.description|striptags }}">
+	{% endif %}{% if meta.robots %}
+		<meta name="robots" content="{{ meta.robots }}">
+	{% endif %}
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" type="text/css" />
-    <link rel="stylesheet" href="{{ theme_url }}/style.css" type="text/css" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" type="text/css" />
+	<link rel="stylesheet" href="{{ theme_url }}/style.css" type="text/css" />
 
-    <script src="{{ theme_url }}/scripts/modernizr-2.6.1.min.js"></script>
+	<script src="{{ theme_url }}/scripts/modernizr-2.6.1.min.js"></script>
 </head>
 <body>
 
-    <header id="header">
-        <div class="inner clearfix">
-            <h1><a href="{{ "index"|link }}" id="logo">{{ site_title }}</a></h1>
-            <h3><a href="https://mipt.ru/" id="logo">Московский Физико-Технический Инстиут </a><a href="http://dgap-mipt.ru/" id="logo">| Факультет Общей и Прикладной Физики</a></h3>
-            <h4><a href="http://www.lebedev.ru/ru/" id="logo">Физический Институт Академии Наук им. П.Н. Лебедева РАН</a></h4>
-            <nav>
-                <a href="#" class="menu-icon"></a>
-                <ul>
-                    {% for page in pages if page.title %}
-                        <li{% if page.id == current_page.id %} class="active"{% endif %}>
-                            <a href="{{ page.url }}">{{ page.title }}</a>
-                        </li>
-                    {% endfor %}
-                </ul>
-            </nav>
-        </div>
-    </header>
+	<header id="header">
+		<div class="inner clearfix">
+			<h1><a href="{{ "index"|link }}" id="logo">{{ site_title }}</a></h1>
+			<h3><a href="https://mipt.ru/" id="logo">Московский Физико-Технический Институт |</a> <a 
+href="http://dgap-mipt.ru/" id="logo">Факультет Общей и Прикладной Физики</a></h3>
+			<h4><a href="http://www.lebedev.ru/ru/" id="logo">Физический Институт им. П.Н. Лебедева РАН |</a> <a 
+href="http://td.lpi.ru/">Отделение теоретической физики имени И.Е.Тамма |</a> <a href="http://astrolyceum.lpi.ru" id="logo">
+Астролицей</a></h4>
+			<nav>
+				<a href="#" class="menu-icon"></a>
+				<ul>
+					{% for page in pages if page.title %}
+						{% if not ((page.id starts with "study/plan/") or (page.id starts with "people/tutors/")) %}
+							<li{% if page.id == current_page.id %} class="active"{% endif %}>
+								<a href="{{ page.url }}">{{ page.title }}</a>
+							</li>
+						{% endif %}
+					{% endfor %}
+				</ul>
+			</nav>
+		</div>
+	</header>
 
-    <section id="content">
-        <div class="inner">
-            {{ content }}
-        </div>
-    </section>
+	<section id="content">
+		<div class="inner">
+			{% if meta.title %}<h1>{{ meta.title }}</h1>{% endif %}
+			{{ content }}
+		</div>
+	</section>
 
-    <footer id="footer">
-        <div class="inner">
-            Released under the <a href="https://github.com/heyfaraday/chair.lpi.ru/blob/master/LICENSE">MIT license</a> on
-             <a href="https://github.com/heyfaraday/chair.lpi.ru">Github</a> by <a href="mailto:edigaryev.ig@phystech.edu">students</a>, 2016.
-        </div>
-    </footer>
+	<footer id="footer">
+		<div class="inner">
+			Released under the <a href="https://github.com/misharash/chair.lpi.ru/blob/master/LICENSE">MIT license</a> on
+			<a href="https://github.com/misharash/chair.lpi.ru">Github</a> by <a 
+href="mailto:rashkovetskiy.mm@phystech.edu">students</a>, 2016.<br />
+			<a href="http://chair.lpi.ru/rus/">Старая версия сайта здесь</a>.
+		</div>
+	</footer>
 
 </body>
 </html>
