@@ -1,7 +1,7 @@
 {{ include( 'header.twig' ) }}
 
-    <div class="inner">{{ content }}</div>
-    <h1 class="content-subhead">Recent posts</h1>
+    <div class="inner">{{ content }}
+    <h1 class="content-subhead">Последние новости</h1>
     <div class="posts">
       {% set posts_per_page = 10 %}
       {% set cnt = 0 %}
@@ -43,6 +43,7 @@
       {% if cnt > last %}
         <a href="{{ 'index' | link }}?p={{ p + 1 }}">more posts</a>
       {% endif %}
+    </div>
     </div>
 
 {{ include( 'footer.twig' ) }}
