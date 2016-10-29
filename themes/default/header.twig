@@ -29,7 +29,7 @@ href="http://td.lpi.ru/">Отделение теоретической физи�
 				<a href="#" class="menu-icon"></a>
 				<ul>
 					{% for page in pages if page.title %}
-						{% if not ((page.id starts with "study/plan/") or (page.id starts with "people/tutors/")) %}
+						{% if not ((page.id starts with "news/") or (page.id starts with "study/plan/") or (page.id starts with "people/tutors/")) %}
 							<li{% if page.id == current_page.id %} class="active"{% endif %}>
 								<a href="{{ page.url }}">{{ page.title }}</a>
 							</li>
