@@ -12,8 +12,9 @@
         {% if page.id starts with "news/" %}
           {% set cnt = cnt + 1 %}
           {% if cnt > first and cnt <= last %}
+          {% set mnths = ['','Янв','Фев','Март','Апр','Май','Июн','Июл','Авг','Сен','Окт','Ноя','Дек'] %}
             <div class="post-date">
-              <div class="month">{{ page.date | date( 'M' ) }}</div>
+              <div class="month">{{ mnths[page.date|date("n")] }}</div>
               <div class="day">{{ page.date | date( 'j' ) }}</div>
               <div class="year">{{ page.date | date( 'Y' ) }}</div>
             </div>
@@ -21,7 +22,7 @@
               <header class="post-header">
                 <h2 class="post-title"><a href="{{ page.url }}">{{ page.title }}</a></h2>
                 <p class="post-meta">
-                  Author: <a href="#" class="post-author">{{ page.author }}</a> &ndash;
+                  Автор: <a class="post-author">{{ page.author }}</a> &ndash;
                   {% set tags = page.meta['tags'] | split( ',' ) %}
                   {% for tag in tags %}
                     {% if not tag is empty %}

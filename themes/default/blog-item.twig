@@ -13,7 +13,8 @@
     </div>
     {% endif %}
     <div class="content">
-      <span class="meta-time">{{ meta.time | date( 'j M Y' ) }}</span>
+    {% set mnths = ['','января','февраля','марта','апреля','мая','июня','июля','августа','сентября','октября','ноября','декабря'] %}
+      <span class="meta-time">{{ meta.time | date( 'j' ) }} {{ mnths[meta.time|date("n")] }}  {{ meta.time | date( 'Y' ) }}</span>
       {{ content }}
     </div>
   </div>
