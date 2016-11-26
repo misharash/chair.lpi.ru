@@ -34,7 +34,6 @@ Title: Студенты
 4. [Диваков Сергей Петрович](mailto:div.gerge@gmail.com "E-mail: div.gerge@gmail.com"), науч.рук. кандидат физ-мат. наук [Семёнов Андрей Георгиевич](%base_url%?people%2Ftutors%2Fsemenov.ag)
 5. Загвоздкин Андрей Вячеславович, науч.рук. доктор физ.-мат. наук Барвинский Андрей Олегович
 6. [Знобишев Андрей Сергеевич](mailto:znobish353@rambler.ru "E-mail: znobish353@rambler.ru"), науч.рук. кандидат физ-мат. наук Пилипенко Сергей Владимирович
-7. [Музенитов Денис Георгиевич](mailto:dionis.chelny@bk.ru "E-mail: dionis.chelny@bk.ru")
 8. Поздняков Сергей Николаевич, науч.рук. доктор технических наук Оганов Артем Ромаевич
 9. [Рагинов Никита Иванович](mailto:raginov-n@yandex.ru "E-mail: raginov-n@yandex.ru"), науч.рук. кандидат физ-мат. наук Кунцевич Александр Юрьевич
 10. Тюшев Михаил Сергеевич
@@ -54,7 +53,6 @@ Title: Студенты
 2. Долгирев Павел Евгеньевич, науч.рук. кандидат физ-мат. наук [Семёнов Андрей Георгиевич](%base_url%?people%2Ftutors%2Fsemenov.ag)
 3. [Прокофьев Вадим Вячеславович](mailto:lopata94@yandex.ru "E-mail: lopata94@yandex.ru"), науч.рук. доктор физ.-мат. наук, профессор [Истомин Яков Николаевич](%base_url%?people%2Ftutors%2Fistomin.yn)
 4. [Радкевич Алексей Андреевич](mailto:10radkeih@mail.ru "E-mail: 10radkeih@mail.ru"), науч.рук. кандидат физ-мат. наук [Семёнов Андрей Георгиевич](%base_url%?people%2Ftutors%2Fsemenov.ag)
-5. [Сабыргалиев Тайман Талгатулы](mailto:sabyrgalie@phystech.edu "E-mail: sabyrgalie@phystech.edu")
 
 ## Аспиранты
 1. [Аракелян Наира Рубеновна](mailto:n.rubenovna@mail.ru "E-mail: n.rubenovna@mail.ru"), науч.рук. кандидат физ-мат. наук Пилипенко Сергей Владимирович
