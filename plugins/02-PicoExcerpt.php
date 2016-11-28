@@ -25,7 +25,7 @@ class PicoExcerpt extends AbstractPicoPlugin
      *
      * @see AbstractPicoPlugin::$enabled
      */
-    protected $enabled = false;
+    protected $enabled = true;
 
     /**
      * This plugin depends on PicoParsePagesContent
