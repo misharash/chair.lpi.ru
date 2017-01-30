@@ -33,7 +33,7 @@ Title: Учебный план
 
 * Квантовая теория поля ([К.Алкалаев](%base_url%?people%2Ftutors%2Falkalaev.kb), экзамен)
 * [Теория излучения](%base_url%?study%2Fplan%2Fradiation) ([В.Догель](%base_url%?people%2Ftutors%2Fdogiel.va), экзамен)
-* [Микроскопическая теория сверхпроводимости](%base_url%?study%2Fplan%2Fsupercond) (М.Каленков, экзамен)
+* [Микроскопическая теория сверхпроводимости](%base_url%?study%2Fplan%2Fsupercond) ([М.Каленков](%base_url%?people%2Ftutors%2Fkalenkov.ms), экзамен)
 * Физика сложных систем ([К.Зыбин](%base_url%?people%2Ftutors%2Fzybin.kp), экзамен)
 
 ## 9 семестр
