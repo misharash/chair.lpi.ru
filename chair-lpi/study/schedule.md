@@ -25,7 +25,7 @@ Title: Расписание
 четверг | 14.30-15.50 | [Физика твердого тела](%base_url%?study%2Fplan%2Fsolbody) | 3 | [А.П. Силин](%base_url%?people%2Ftutors%2Fsilin.ap), В.С. Батурин, С.В. Лепешкин | Верхний зал ОТФ
 четверг | 16.00-17.20 | [Высшая алгебра и теория представлений](%base_url%?study%2Fplan%2Fgrouprepr) | 3 | [В.А. Белавин](%base_url%?people%2Ftutors%2Fbelavin.va) | Верхний зал ОТФ
 четверг | 17.30-18.50 | Семинар по методам теоретической физики | 3 |  | Верхний зал ОТФ
-четверг | 18.30-20.00 | [Проблемы современной астрофизики и геофизики](http://www.astrolyceum.lpi.ru/ESC/ModAstro.pdf) | 2 |  | МФТИ, 115 КПМ
+четверг | 18.30-20.00 | [Проблемы современной астрофизики и геофизики](%base_url%?study%2Fplan%2Fprobastrogeo) | 2 |  | МФТИ, 115 или 901 КПМ
 
 [PDF-версия](downloads/RaspisanieVesna2017.pdf).<br>
 Старые расписания: [осень 2016](downloads/RaspisanieOsen2016.pdf)

@@ -4,7 +4,7 @@ Title: Учебный план
 
 ## 4 семестр
 
-* [Проблемы современной астрофизики и геофизики](http://www.astrolyceum.lpi.ru/ESC/ModAstro.pdf) ([В.Бескин](%base_url%?people%2Ftutors%2Fbeskin.vs), зачёт)
+* [Проблемы современной астрофизики и геофизики](%base_url%?study%2Fplan%2Fprobastrogeo) ([В.Бескин](%base_url%?people%2Ftutors%2Fbeskin.vs), зачёт)
 * [Теория групп и представлений](%base_url%?study%2Fplan%2Fgrouprepr) ([М.Григорьев](%base_url%?people%2Ftutors%2Fgrigoryev.ma), экзамен)
 * Семинар по научной литературе ([В.Бескин](%base_url%?people%2Ftutors%2Fbeskin.vs), зачёт)
 
