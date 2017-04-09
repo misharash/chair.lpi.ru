@@ -162,7 +162,7 @@ final class Pico_Edit extends AbstractPicoPlugin {
     else $name = substr( $title, $pos + 1 );
     if( $pos > 0 )
     {
-      $dir = $this->slugify( substr( $title, 0, $pos ) );
+      $dir = substr( $title, 0, $pos );
       if( empty( $dir ) ) die( json_encode( array( 'error' => 'Error: Invalid folder' ) ) );
     }
     $file = $this->slugify( $name );
