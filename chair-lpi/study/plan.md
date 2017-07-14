@@ -42,7 +42,7 @@ Title: Учебный план
 * Физическая кинетика ([Я.Истомин](%base_url%?people%2Ftutors%2Fistomin.yn), экзамен)
 * Физические основы космологии ([Е.Михеева](%base_url%?people%2Ftutors%2Fmikheeva.ev), экзамен)
 * Проблемы современной физики (недиф. зачёт)
-* [Квантовая теория неравновесных явлений I](%base_url%?study%2Fplan%2Fneq1) ([П.Арсеев](%base_url%?people%2Ftutors%2Farseev.pi), [Э.Ахмедов](%base_url%?people%2Ftutors%2Fahmedov.et), [А.Семенов](%base_url%?people%2Ftutors%2Fsemenov.ag), зачёт)
+* [Квантовая теория неравновесных явлений I](%base_url%?study%2Fplan%2Fneq1) ([П.Арсеев](%base_url%?people%2Ftutors%2Farseev.pi), зачёт)
 
 ## 10 семестр
 
@@ -50,5 +50,5 @@ Title: Учебный план
 * [Нелинейные волны](%base_url%?study%2Fplan%2Fnonlin) ([Я.Истомин](%base_url%?people%2Ftutors%2Fistomin.yn), экзамен)
 * [Теория струн](%base_url%?study%2Fplan%2Fstringth) ([В.Белавин](%base_url%?people%2Ftutors%2Fbelavin.va), экзамен)
 * Проблемы современной физики (недиф. зачёт)
-* [Квантовая теория неравновесных явлений II](%base_url%?study%2Fplan%2Fneq2) ([П.Арсеев](%base_url%?people%2Ftutors%2Farseev.pi), [Э.Ахмедов](%base_url%?people%2Ftutors%2Fahmedov.et), [А.Семенов](%base_url%?people%2Ftutors%2Fsemenov.ag), экзамен)
+* [Квантовая теория неравновесных явлений II](%base_url%?study%2Fplan%2Fneq2) ([Э.Ахмедов](%base_url%?people%2Ftutors%2Fahmedov.et), [А.Семенов](%base_url%?people%2Ftutors%2Fsemenov.ag), экзамен)
 
