@@ -1,5 +1,5 @@
 download_from;save_to;replace_from;replace_to;type text/bin
-http://localhost/chair.lpi.ru/themes/default/style.css;theme/style.css;http://localhost/chair.lpi.ru/themes/default/style.css;theme/style.css;text
-http://localhost/chair.lpi.ru/themes/default/scripts/modernizr-2.6.1.min.js;scripts/modernizr-2.6.1.min.js;http://localhost/chair.lpi.ru/themes/default/scripts/modernizr-2.6.1.min.js;scripts/modernizr-2.6.1.min.js;text
-http://localhost/chair.lpi.ru/themes/default/back-1.jpg;theme/back-1.jpg;back-1.jpg;back-1.jpg;bin
-http://localhost/chair.lpi.ru/themes/default/menu-icon.png;theme/menu-icon.png;menu-icon.png;menu-icon.png;bin
+themes/default/style.css;theme/style.css;http://localhost/chair.lpi.ru/themes/default/style.css;theme/style.css;text
+themes/default/scripts/modernizr-2.6.1.min.js;scripts/modernizr-2.6.1.min.js;http://localhost/chair.lpi.ru/themes/default/scripts/modernizr-2.6.1.min.js;scripts/modernizr-2.6.1.min.js;text
+themes/default/back-1.jpg;theme/back-1.jpg;back-1.jpg;back-1.jpg;bin
+themes/default/menu-icon.png;theme/menu-icon.png;menu-icon.png;menu-icon.png;bin

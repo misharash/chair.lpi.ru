@@ -20,7 +20,8 @@ final class Pico_Edit extends AbstractPicoPlugin {
 
   public function onPageRendering(Twig_Environment &$twig, array &$twig_vars, &$templateName)
   {
-    $twig_vars['pico_edit_url'] = $this->getPageUrl( 'pico_edit' );
+    //$twig_vars['pico_edit_url'] = $this->getPageUrl( 'pico_edit' );
+    $twig_vars['pico_edit_url'] = "http://chair.lpi.ru/cgi-bin/new/index.php?pico_edit"; //to make things work
     if( $this->is_logout ) {
       session_destroy();
       header( 'Location: '. $twig_vars['pico_edit_url'] );
@@ -178,6 +179,8 @@ final class Pico_Edit extends AbstractPicoPlugin {
       }
     }
     $path .= '/' . $file . $this->getConfig( 'content_ext' );
+    //$path = realpath($path); // to make things work
+    $path = $this->get_real_filename($title); // to make things work
 
     // TODO: check this part
 

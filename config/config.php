@@ -20,7 +20,7 @@
  * BASIC
  */
  $config['site_title'] = 'Кафедра проблем физики и астрофизики';              // Site title
-// $config['base_url'] = '';                    // Override base URL (e.g. http://example.com)
+ $config['base_url'] = 'http://chair.lpi.ru/new/chair.lpi.ru';                    // Override base URL (e.g. http://example.com)
 // $config['rewrite_url'] = null;               // A boolean indicating forced URL rewriting
 
 /*
