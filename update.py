@@ -24,7 +24,7 @@ with open('resources.csv') as csvfile:
         depth.append(0)
 content_dir="chair-lpi"
 saveto_dir="static/"
-base_url="http://localhost/chair.lpi.ru/"
+base_url="http://localhost:8888/"
 os.chdir(content_dir)
 wk=os.walk(".")
 for row in wk:
