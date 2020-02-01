@@ -1,6 +1,16 @@
 #!/usr/bin/env python3
-#parameter -nu (no upload)
-import sys,os,csv,urllib.request
+# parameter -nu (no upload)
+import sys
+import os
+import csv
+import urllib.request
+
+
+def safe_open(filename, mode):
+    os.makedirs(os.path.dirname(filename), exist_ok=True)
+    return open(filename, mode)
+
+
 def GetURL(url):
     s = 'error'
     try:
@@ -11,9 +21,11 @@ def GetURL(url):
     except urllib.error.URLError:
         s = 'url error'
     return s
-download_from,save_to,replace_from,replace_to,ftype,depth=[],[],[],[],[],[]
+
+
+download_from, save_to, replace_from, replace_to, ftype, depth = ([] for _ in range(6))
 with open('resources.csv') as csvfile:
-    csv_iter=csv.reader(csvfile,delimiter=';')
+    csv_iter = csv.reader(csvfile, delimiter=';')
     next(csv_iter)
     for row in csv_iter:
         download_from.append(row[0])
@@ -22,49 +34,45 @@ with open('resources.csv') as csvfile:
         replace_to.append(row[3])
         ftype.append(row[4])
         depth.append(0)
-content_dir="chair-lpi"
-saveto_dir="static/"
-base_url="http://localhost:8888/"
+content_dir = "chair-lpi"
+saveto_dir = "static/"
+base_url = "http://localhost:8888/"
 os.chdir(content_dir)
-wk=os.walk(".")
+wk = os.walk(".")
 for row in wk:
-    dp=row[0].count("/")
-    try:
-        os.mkdir("../"+saveto_dir+row[0])
-    except FileExistsError:
-        print("Dir exists in destination "+row[0])
+    dp = row[0].count("/")
     for filen in row[2]:
-        if filen[-3:]==".md":
-            filename=row[0]+'/'+filen[:-3]
-            filename=filename[2:]
+        if filen[-3:] == ".md":
+            filename = row[0]+'/'+filen[:-3]
+            filename = filename[2:]
             download_from.append(base_url+"?"+filename)
             save_to.append(filename+".html")
-            replace_from.append(base_url+"?"+filename.replace("/","%2F"))
+            replace_from.append(base_url+"?"+filename.replace("/", "%2F"))
             replace_to.append(filename+".html")
             ftype.append('text')
             depth.append(dp)
 os.chdir("..")
 for i in range(len(download_from)):
     print(download_from[i]+" -> "+save_to[i])
-    bs=GetURL(download_from[i])
-    if ftype[i]=="text":
+    bs = GetURL(download_from[i])
+    if ftype[i] == "text":
         try:
-            s=bs.decode("utf-8")
+            s = bs.decode("utf-8")
         except AttributeError:
-            s=bs
-        s=s.replace('href="http',"donotrepeatthiscombinationinapage")
-        s=s.replace('href="mailto',"donotrepeatalsothiscombinationinapage")
-        s=s.replace('href="','href="'+"../"*depth[i])
-        s=s.replace("donotrepeatalsothiscombinationinapage",'href="mailto')
-        s=s.replace("donotrepeatthiscombinationinapage",'href="http')
-        s=s.replace('src="http',"donotrepeatthiscombinationinapage")
-        s=s.replace('src="','src="'+"../"*depth[i])
-        s=s.replace("donotrepeatthiscombinationinapage",'src="http')
-        for j in range(len(replace_from)-1,-1,-1):
-            s=s.replace(replace_from[j],"../"*depth[i]+replace_to[j])
-        bs=s.encode("utf-8")
-    with open(saveto_dir+save_to[i],"wb") as f:
+            s = bs
+        s = s.replace('href="http', "donotrepeatthiscombinationinapage")
+        s = s.replace('href="mailto', "donotrepeatalsothiscombinationinapage")
+        s = s.replace('href="', 'href="'+"../"*depth[i])
+        s = s.replace("donotrepeatalsothiscombinationinapage", 'href="mailto')
+        s = s.replace("donotrepeatthiscombinationinapage", 'href="http')
+        s = s.replace('src="http', "donotrepeatthiscombinationinapage")
+        s = s.replace('src="', 'src="'+"../"*depth[i])
+        s = s.replace("donotrepeatthiscombinationinapage", 'src="http')
+        for j in range(len(replace_from)-1, -1, -1):
+            s = s.replace(replace_from[j], "../"*depth[i]+replace_to[j])
+        bs = s.encode("utf-8")
+    with safe_open(saveto_dir+save_to[i], "wb") as f:
         f.write(bs)
 os.chdir(saveto_dir)
-if ((len(sys.argv)<=1) or (sys.argv[1]!="-nu")):
+if ((len(sys.argv) <= 1) or (sys.argv[1] != "-nu")):
     print(os.popen("scp -r . edigaryev@td.lpi.ru:/home/www/chair/new/").read())
